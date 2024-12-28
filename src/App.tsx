@@ -13,8 +13,8 @@ const queryClient = new QueryClient();
 
 // Initialize Supabase client
 const supabase = createClient(
-  'https://xyzcompany.supabase.co',  // Replace with your Supabase URL
-  'public-anon-key'  // Replace with your public anon key
+  'https://jtxqwxqwxqwxqwxqwxqw.supabase.co',  // Replace with your actual Supabase URL
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'  // Replace with your actual anon key
 );
 
 const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
