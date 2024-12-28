@@ -10,8 +10,8 @@ import type { Database } from "@/types/supabase";
 
 // Initialize Supabase client
 const supabase = createClient<Database>(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
+  'https://xyzcompany.supabase.co',  // Replace with your Supabase URL
+  'public-anon-key'  // Replace with your public anon key
 );
 
 export default function Login() {
